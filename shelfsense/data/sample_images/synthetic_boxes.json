@@ -1,0 +1,34 @@
+{
+  "provenance": "Synthetic, manually specified boxes. Not inference output.",
+  "regions": [
+    {
+      "name": "Shelf 1",
+      "box": [
+        20,
+        40,
+        780,
+        280
+      ]
+    }
+  ],
+  "boxes": [
+    [
+      40,
+      70,
+      180,
+      270
+    ],
+    [
+      200,
+      70,
+      340,
+      270
+    ],
+    [
+      500,
+      70,
+      660,
+      270
+    ]
+  ]
+}

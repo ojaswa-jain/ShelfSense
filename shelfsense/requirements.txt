@@ -1,0 +1,7 @@
+# Python 3.11 recommended. Manual workflow: no torch or model weights needed.
+streamlit==1.45.1
+numpy==2.2.6
+opencv-python==4.11.0.86
+pandas==2.2.3
+Pillow==11.2.1
+pytest==8.3.5

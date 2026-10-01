@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "audit_timestamp": "2026-10-01T14:56:17.582757+00:00",
+  "image_identifier": "synthetic-manual-geometry-example",
+  "analysis_mode": "manual",
+  "disclaimer": "Visible facings are not total inventory. Occupancy is box-based visual coverage. Potential gaps, lower counts and display-facing shortfalls require manual verification. No hidden stock, sales or purchase quantities are inferred.",
+  "coordinate_info": {
+    "system": "xyxy half-open",
+    "working_size": [
+      800,
+      320
+    ]
+  },
+  "regions": [
+    {
+      "name": "Shelf 1",
+      "box": [
+        20,
+        40,
+        780,
+        280
+      ]
+    }
+  ],
+  "original_model_result": [],
+  "initial_analysis_result": [
+    {
+      "id": "synthetic-manual-1",
+      "box": [
+        40,
+        70,
+        180,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    },
+    {
+      "id": "synthetic-manual-2",
+      "box": [
+        200,
+        70,
+        340,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    },
+    {
+      "id": "synthetic-manual-3",
+      "box": [
+        500,
+        70,
+        660,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    }
+  ],
+  "corrected_result": [
+    {
+      "id": "synthetic-manual-1",
+      "box": [
+        40,
+        70,
+        180,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    },
+    {
+      "id": "synthetic-manual-2",
+      "box": [
+        200,
+        70,
+        340,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    },
+    {
+      "id": "synthetic-manual-3",
+      "box": [
+        500,
+        70,
+        660,
+        270
+      ],
+      "confidence": null,
+      "source": "manual",
+      "product_id": null,
+      "status": "Unknown product",
+      "similarity": null,
+      "candidates": []
+    }
+  ],
+  "user_corrections": [],
+  "settings": {
+    "mode": "manual",
+    "minimum_gap_fraction": 0.08,
+    "detector_model": null,
+    "embedding_model": null
+  },
+  "analysis": {
+    "visible_facings": 3,
+    "outside_region_count": 0,
+    "counts_by_product": {},
+    "unknown_product_count": 3,
+    "needs_verification_count": 0,
+    "regions": [
+      {
+        "region": "Shelf 1",
+        "visible_facings": 3,
+        "estimated_visual_occupancy": 0.4824561403508772,
+        "counts_by_product": {},
+        "unknown_count": 3,
+        "potential_gaps": [
+          {
+            "box": [
+              340,
+              40,
+              500,
+              280
+            ],
+            "label": "Potential gap — verify",
+            "evidence": "No annotated/detected box covers this horizontal interval."
+          },
+          {
+            "box": [
+              660,
+              40,
+              780,
+              280
+            ],
+            "label": "Potential gap — verify",
+            "evidence": "No annotated/detected box covers this horizontal interval."
+          }
+        ]
+      }
+    ],
+    "targets": [],
+    "possible_misplacements": []
+  },
+  "catalogue_snapshot": [],
+  "reference_comparison": {
+    "status": "Not performed"
+  }
+}

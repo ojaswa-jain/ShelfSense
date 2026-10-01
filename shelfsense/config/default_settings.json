@@ -1,0 +1,9 @@
+{
+  "max_side": 1600,
+  "blur_warning_threshold": 80.0,
+  "detector_confidence": 0.35,
+  "nms_iou": 0.5,
+  "similarity_threshold": 0.85,
+  "ambiguity_margin": 0.05,
+  "minimum_gap_fraction": 0.08
+}
